@@ -36,6 +36,10 @@
      .embed-responsive {
         height: 500px;
     }
+
+    .text-service {
+        font-weight: bolder;
+    }
 }
 
 @media (max-width:480px) {
