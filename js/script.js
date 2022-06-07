@@ -1,7 +1,4 @@
-$('#playthis').click(function() {
-    var video = document.querySelector('#vid');
-    video.play()
-    video.controls = true;
+$(document).ready(function() {
     $('#playthis').hide();
   });
 
