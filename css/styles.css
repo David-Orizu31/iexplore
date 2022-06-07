@@ -122,6 +122,7 @@ body p {
 
 .text-service {
    font-family: cursive;
+   font-weight: bold;
 }
 
 /* This changes all the animations globally */
