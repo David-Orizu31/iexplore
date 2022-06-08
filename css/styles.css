@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400&family=Inter&family=Montserrat&family=Nunito:wght@300&family=Poppins:wght@300;400&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400&family=Inter:wght@400;800&family=Montserrat&family=Nunito:wght@300&family=Poppins:wght@300;400&family=Roboto&display=swap');
 
 html, body {
     max-width: 100%;
@@ -109,7 +109,14 @@ body p {
 }
 
 .about-h2 {
-    text-shadow : -1px -1px 1px #fff, 1px 1px 1px rgb(230, 196, 3) ;
+    text-shadow : -1px -1px 1px #fff, 1px 1px 1px rgb(230, 196, 3);
+    font-family: 'Inter', 'san-serif';
+    font-weight: 800;
+}
+
+.about-h4 {
+    font-weight: bolder;
+    font-family: 'Poppins', 'san-serif'; 
 }
 
 .about-text {
