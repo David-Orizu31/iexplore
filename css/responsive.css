@@ -42,6 +42,24 @@
     .text-service {
         font-family: 'Permanent Marker', cursive;
     }
+
+    .play-video {
+        min-height: 700px;
+    }
+}
+
+@media (max-width:850px) {
+    .animate {
+        font-size: 80px;
+    }
+
+    .play-video .play {
+        left: 50%;
+    }
+
+    .play-video .play .container .home-area {
+        width: 600px;
+     }
 }
 
 @media (max-width:480px) {
@@ -51,5 +69,23 @@
 
     .embed-responsive {
         height: 400px;
+    }
+
+    .play-video {
+        min-height: 600px;
+    }
+
+    .animate {
+        font-size: 60px;
+    }
+
+    .play-video .play {
+        top: 45%;
+        left: 35%;
+    }
+
+    .play-video .play .container .home-area {
+       margin-left: 100px;
+       width: 300px;
     }
 }
