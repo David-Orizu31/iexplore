@@ -4,7 +4,7 @@ $(document).ready(function() {
   var indicator = $(this);
   setTimeout(function(){ 
     $(indicator).parent().addClass(classes);
-  }, 20);
+  }, 2000);
   });
 
 $(function () {
